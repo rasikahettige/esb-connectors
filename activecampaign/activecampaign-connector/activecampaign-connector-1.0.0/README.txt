@@ -19,7 +19,7 @@ Steps to follow in setting integration test.
  1. Download ESB WSO2 ESB 4.9.0-BETA-SNAPSHOT by navigating the following the URL: http://svn.wso2.org/repos/wso2/people/malaka/ESB/beta/.
  
  2.	Deploy relevant patches, if applicable and the ESB should be configured as below.
-	Please make sure that the below mentioned Axis configurations are enabled (\repository\conf\axis2\axis2.xml).
+	Please make sure that the below mentioned Axis configurations are enabled(<ESB_HOME>/repository/conf/axis2/axis2.xml).
 
     <messageFormatter contentType="text/html" class="org.wso2.carbon.relay.ExpandingMessageFormatter"/>
     <messageBuilder contentType="text/html" class="org.wso2.carbon.relay.BinaryRelayBuilder"/>
